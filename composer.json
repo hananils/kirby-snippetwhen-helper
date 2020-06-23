@@ -1,0 +1,15 @@
+{
+    "name": "hananils/kirby-snippetwhen-helper",
+    "description": "Helper function for Kirby to embed snippets only when a condition is met.",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hana+nils · Büro für Gestaltung",
+            "email": "buero@hananils.de"
+        }
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1"
+    }
+}
