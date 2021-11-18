@@ -1,6 +1,6 @@
-# Kirby Conditional Snippets
+![Kirby snippetWhen Helper](.github/title.png)
 
-Helper function for Kirby to embed snippets only when a condition is met.
+**snippetWhen** is a helper function for [Kirby 3](https://getkirby.com) to conditionally embed snippets.
 
 ## Installation
 
@@ -20,23 +20,22 @@ git submodule add https://github.com/hananils/kirby-snippetwhen-helper.git site/
 composer require hananils/kirby-snippetwhen-helper
 ```
 
-## Usage
+# Usage
 
-### snippetWhen($snippet, $condition, $expected, $data)
+## snippetWhen($snippet, $condition, $expected, $data)
 
-- `$snippet`: the name of the snippet
-- `$condition`: a condition that either evaluates to `true` or `false`
-- `$expected`: the expected result of the condition, defaults to `true`
-- `$data`: data object passed to the snippet
+Conditionally embeds a snippet:
+
+-   **`$snippet`:** the name of the snippet
+-   **`$condition`:** a condition that either evaluates to `true` or `false`
+-   **`$expected`:** the expected result of the condition, defaults to `true`
+-   **`$data`:** data object passed to the snippet
 
 ```php
-snippetWhen('article', $page->category()->isNotEmpty())
+snippetWhen('article', $page->category()->isNotEmpty());
 ```
 
-## License
+# License
 
-MIT
-
-## Credits
-
-- hana+nils · Büro für Gestaltung
+This plugin is provided freely under the [MIT license](LICENSE.md) by [hana+nils · Büro für Gestaltung](https://hananils.de).  
+We create visual designs for digital and analog media.
