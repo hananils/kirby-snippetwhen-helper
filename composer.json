@@ -3,6 +3,7 @@
     "description": "Helper function for Kirby to embed snippets only when a condition is met.",
     "type": "kirby-plugin",
     "license": "MIT",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "hana+nils · Büro für Gestaltung",
