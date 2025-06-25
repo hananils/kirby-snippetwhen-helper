@@ -2,6 +2,9 @@
 
 **snippetWhen** is a helper function for [Kirby 3](https://getkirby.com) to conditionally embed snippets.
 
+> [!NOTE]
+> Please check out the online documentation at [kirby.hananils.de/plugins/snippetwhen-helper](https://kirby.hananils.de/plugins/snippetwhen-helper) for further information.
+
 ## Installation
 
 ### Download
